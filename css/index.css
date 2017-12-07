@@ -1,0 +1,257 @@
+.container{
+    width:70%;
+    padding: 0;
+}
+a{
+    color:#080808;
+}
+a:hover{
+    text-decoration: none;
+    color:orangered;
+}
+.container .header {
+    width: 100%;
+    margin: 2.5em auto ;
+}
+.header .nav > li{
+    padding: 0;
+}
+.header .nav > li > a {
+    font-size: 1em;
+    color:#080808;
+}
+.header .nav > li > a:hover {
+    color:#fff;
+    background-color:lightskyblue;
+}
+.container .body {
+    width: 100%;
+    margin: 0 auto;
+}
+.container .body .carousel{
+    width:100%;
+    /*height:380px;*/
+    overflow: hidden;
+    margin-top: 2.5em;;
+}
+
+.body .part{
+    margin-top: 3em;
+    text-align: center;
+    width:100%;
+}
+
+.body .part span.title,.jobtitle{
+    font-size: 1.5em;
+}
+.body .part .line1,.body .part .line3{
+    width:60px;
+    display: inline-block;
+    border-top:1px solid #122b40;
+}
+.body .part .line2{
+    width:55px;
+    display: inline-block;
+    border-top:2px solid red;
+}
+.body .part1{
+    margin:5em 0;
+}
+.body .part1 p.promise{
+    margin-top: 1.5em;
+    font-size: 1.1em;
+}
+
+.body .part1 .numdiv{
+    display:inline-block;
+}
+.body .part1  .num{
+    color:orangered;
+    font-weight: inherit;
+}
+
+
+.body .part1  .addnum{
+    position: relative;
+    top:-1.2em;
+    color:orangered;
+}
+
+.body .part1  .numdiv .text-justify span{
+    display:inline-block;
+    width:100%;
+}
+
+.body .part2 img{
+    width: 100%;
+}
+.body .part2{
+	position:relative;
+}
+.body .part2 .p2container{
+    width:40%;
+    position:absolute;
+    color:#fff;
+    text-align: left;
+}
+.body .part2 .p2title{
+    text-align: center;
+}
+@media screen and (min-width: 992px) {
+    .body .part1  .num {
+        font-size: 3.5em;
+    }
+    .body .part2 .p2container{
+        top:8em;
+        left:6em;
+    }
+    .body .part2 .p2title{
+        font-size: 2.5em;
+    }
+    .body .part2 .p2detail{
+        font-size:1.1em;
+    }
+}
+@media screen and (min-width: 751px) and (max-width:991px) {
+    .body .part1  .num {
+        font-size: 2.0em;
+    }
+    .body .part2 .p2container{
+        top:4em;
+        left:3em;
+    }
+    .body .part2 .p2title{
+        font-size: 1.5em;
+    }
+    .body .part2 .p2detail{
+        font-size:0.8em;
+    }
+}
+@media screen and (min-width: 401px) and (max-width:750px) {
+    .body .part1  .num {
+        font-size: 1.5em;
+    }
+    .body .part2 .p2container {
+        top: 3.5em;
+        left: 2.8em;
+    }
+    .body .part2 .p2title {
+        font-size: 1.5em;
+    }
+
+    .body .part2 .p2detail {
+        font-size: 0.8em;
+    }
+}
+@media screen and (max-width:550px){
+    .body .part2 .p2container {
+        top: 2em;
+        left: 2em;
+    }
+}
+@media screen and (max-width:470px){
+    .body .part2 .p2container .p2detail{
+        display: none;
+    }
+}
+
+.body .part3 p.promise{
+    margin-bottom: 1.5em;
+}
+.body .part4 input{
+    position: relative;
+    top:-12em;
+    left:13em;
+}
+.body .part5 .col-md-3{
+    margin-top:3em;
+}
+ .footer {
+    margin-top:5em;
+     margin-bottom: 1em;
+}
+ .footer p{
+     margin:0;
+     font-size: 0.6em;
+     text-align: right;
+ }
+ .body .part1{
+     margin-bottom:3em;
+ }
+
+.body .part5{
+    margin-top: 2em;
+}
+.header li a{
+    padding:10px;
+}
+
+/*******************WIFI页*********************/
+.wifip3{
+    width:80%;
+    margin: 0 auto;
+}
+.wifip3 img{
+    width:90%;
+    margin:0 auto;
+}
+.wifip4{
+    width:80%;
+    margin:0 auto;
+}
+.wifip4 p{
+    font-size: 0.8em;
+    line-height: 1.7em;
+}
+.wifip4 p.pred{
+    color:red;
+    text-align: left;
+}
+.wifip5{
+    background-image: url("../images/wifi_15.png");
+    padding:2.5em 4em 4em 4em;
+}
+.wifip6{
+    width:50%;
+    margin:0 auto;
+    padding: 2em 2em;
+}
+.body div.wifip5 .title,.body div.wifip6 .title{
+    font-size: 2em;
+    text-align: center;
+}
+.wifip6 p.form-control,.wifip6 p.pmsg{
+    text-align: left;
+    margin-bottom: 3px;
+}
+.p6submit>input{
+    margin-left: 8px;
+}
+
+/**************seljoin*****************/
+.body .part1 .selnum .num{
+    font-size: 2.2em;
+}
+.body .part1 .selnum .numdiv{
+    margin-top:1.5em;
+}
+.jobscript{
+    width:90%;
+    text-align: left;
+    margin: 20px auto 0;
+    min-height:400px;
+    overflow: hidden;
+}
+.part .jobs{
+    margin-left:30px;
+}
+.part .jobs li a{
+    padding: 7px 10px;
+}
+.part5 ul.row{
+    margin:30px auto 0;
+    padding:0;
+}
+.part5 ul.row li div{
+    min-height:240px;
+}

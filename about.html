@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>宾果传媒广告有限公司——首页</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/index.css">
+    <style>
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header id="header">
+            <img src="images/loading.gif" alt="">
+        </header>
+        <div class="body">
+            <div class="part part4">
+                <img src="images/about_03.png" alt="" class="img-responsive">
+            </div>
+        </div>
+        <div class="footer" id="footer">
+            <img src="images/loading.gif" alt="">
+        </div>
+    </div>
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/load.js"></script>
+<script>
+    var $activeli=$("#header [data-title='about']");
+    $activeli.addClass("active").siblings().removeClass("active");
+</script>
+</body>
+</html>
